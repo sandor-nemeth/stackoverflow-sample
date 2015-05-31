@@ -1,0 +1,13 @@
+<Context>
+  <Resource
+    auth="Container"
+    driverClassName="org.h2.Driver"
+    maxActive="30"
+    maxIdle="100"
+    maxWait="10000"
+    name="jdbc/lab"
+    password=""
+    type="javax.sql.DataSource"
+    url="jdbc:h2:mem:employee"
+    username="sa" />
+</Context>

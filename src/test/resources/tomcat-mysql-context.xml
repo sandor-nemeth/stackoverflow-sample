@@ -1,0 +1,13 @@
+<Context>
+  <Resource
+    auth="Container"
+    driverClassName="com.mysql.jdbc.Driver"
+    maxActive="30"
+    maxIdle="100"
+    maxWait="10000"
+    name="jdbc/lab"
+    password="hacking"
+    type="javax.sql.DataSource"
+    url="jdbc:mysql://localhost:3306/lab?zeroDateTimeBehavior=convertToNull"
+    username="fabio" />
+</Context>
